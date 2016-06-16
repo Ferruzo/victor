@@ -1,0 +1,332 @@
+body {
+    font-family: Lato;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+img {
+    width: 100% !important;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+hr {
+    border: 1px solid #14546f;
+    width: 180px;
+    margin-left: 0;
+}
+
+.hrIzquierda {
+    border: 1px solid #14546f;
+    width: 50%;
+    margin-left: 50%;
+
+}
+
+.arrow-box {
+    padding: 40px 0 0 0;
+}
+
+.arrow {
+    font-size: 6rem;
+    color: #14546f;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    color: rgb(71, 139, 219);
+    transition: 0.3s;
+}
+
+.headings-color {
+    color: #14546f;
+    font-weight: 700;
+}
+
+.loading {
+    background: url('../img/spin.gif') no-repeat center 230px; /*Esta parte hará la función de cargador mientras aparece el contenido*/
+}
+body {
+    opacity: 0; /*El valor inicial de la opacidad del contenedor es 0, por medio de javascript haremos que aparezca al asignarle la clase .loaded_section*/
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition: opacity .6s;
+}
+.loaded {
+    opacity: 1;
+}
+
+header {
+    color: #fff;
+    height: 700px;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.languages {
+    float: left;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.languages a {
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(217, 191, 54);
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+.navbar-nav a {
+    color: rgb(217, 191, 54) !important;
+}
+
+header li a:hover {
+    color: #fff !important;
+}
+
+#header-button {
+    margin-top: 7%;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(217, 191, 54);
+    transition: 0.3s;
+}
+
+#header-button:hover {
+    background-color: rgb(255, 216, 13);
+    transition: 0.3s;
+}
+
+#aboutMe {
+    padding: 5% 0;
+    background-color: #fff;
+    background-image: url(../img/nasty_fabric.png);
+    background-repeat: repeat;
+}
+
+#aboutMe img {
+    height: auto;
+    width: 400px;
+    max-width: 380px;
+    max-height: 595px;
+    border-radius: 20%;
+    padding: 3px;
+
+
+}
+
+#Origin {
+    padding: 5% 0;
+    background-color: #fff;
+    background-image: url(../img/nasty_fabric.png);
+    background-repeat: repeat;
+}
+
+#Origin img {
+    height: auto;
+    width: 400px;
+    max-width: 380px;
+    max-height: 595px;
+    border-radius: 10%;
+    padding: 3px;
+
+
+}
+
+#QueEs {
+    padding: 5% 0;
+    background-color: #398439;
+    background-image: url(../img/weather.png);
+    background-repeat: repeat;
+
+}
+
+#QueEs img {
+    height: auto;
+    width: 400px;
+    max-width: 380px;
+    max-height: 595px;
+    border-radius: 20%;
+    padding: 3px;
+
+
+}
+
+#skills {
+    padding: 5% 0;
+    background-color: #fff;
+}
+
+#skills hr {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#skills img {
+    width: 100%;
+}
+
+#skills .row {
+    margin-bottom: 50px;
+}
+
+#skills p {
+    margin-top: 15px;
+}
+
+#portfolio {
+    padding: 5% 0;
+    background-color: #14546f;
+    color: #fff;
+    text-align: center;
+}
+
+#portfolio hr {
+    border-color: #fff;
+    margin: auto;
+}
+
+#portfolio .arrow {
+    color: #fff;
+}
+
+.slick-prev {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border: none;
+}
+
+.slick-next {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border: none;
+}
+
+.caja {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.caja img {
+    width: 100%;
+    height: 250px;
+}
+
+#contact {
+    padding: 5% 0;
+}
+
+#contact hr {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-icons div {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.contact-icons i {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: rgb(48, 142, 167);
+}
+
+#twitch {
+    padding: 5% 0;
+    background-image: url(../img/twitch.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+#twitch hr {
+    border-color: #fff;
+}
+
+iframe {
+    width: 100%;
+}
+.media {
+    margin-top: 80px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.media a {
+    color: #fff;
+    margin-right: 30px;
+}
+
+footer {
+    padding: 2% 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    #header h2 {
+        font-size: 2rem;
+    }
+    #header {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url(../img/header-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .caja img {
+        width: 100%;
+        height: 200px;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+}
